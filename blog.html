@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University | Blog</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="material-symbols-outlined" onclick="hideMenu()">
+                    close
+                </i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="material-symbols-outlined" onclick="showMenu()">
+                menu
+            </i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2024</h1>
+    </section>
+    <!--bolg page  content-->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs for 2024</h2>
+             <p>In 2024, we are proud to offer a wide range of Certificate and Degree Certificate programs designed to provide students with specialized knowledge and skills in their chosen fields. These programs are ideal for those looking to accelerate their careers or gain expertise in areas such as business, technology, education, healthcare, and more. Delivered entirely online, our flexible learning options allow students to balance their studies with professional and personal commitments. Earn a prestigious certificate from a world-class institution and gain a competitive edge in today’s dynamic job market.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div><span>Data Science</span>
+                    <span>28</span>
+                </div>
+
+                <div><span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+
+                <div><span>Computer Science</span>
+                    <span>34</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to Eduford, a vibrant community of scholars, innovators, and leaders dedicated to shaping the future. Founded in 1980, we have grown into a distinguished institution renowned for academic excellence, groundbreaking research, and a commitment to fostering personal growth. At Eduford, we offer a diverse range of undergraduate, graduate, and professional programs designed to challenge, inspire, and empower students to achieve their highest potential. Our faculty members are experts in their fields, dedicated to providing world-class education and mentorship, ensuring that our students are equipped to make meaningful contributions to society. We believe in the power of curiosity, creativity, and critical thinking, and strive to create an inclusive and supportive environment where students from all backgrounds can thrive. Our campus is a hub of collaboration and innovation, offering state-of-the-art facilities, resources, and opportunities for hands-on learning. As a university committed to global engagement, we encourage students to expand their horizons through study abroad programs, internships, and partnerships with institutions around the world. Our strong alumni network and connections with industry leaders provide our graduates with the tools they need to succeed in a rapidly changing world. Whether you're just starting your academic journey or looking to advance your career, Eduford is the place where your aspirations become reality. Join us as we continue to make a difference in the world through education, research, and service.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+        </div>  
+       
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

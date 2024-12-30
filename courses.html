@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduford University | Courses</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="material-symbols-outlined" onclick="hideMenu()"> close </i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="material-symbols-outlined" onclick="showMenu()"> menu </i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <!-- 
+        Course
+    -->
+    <section class="course">
+      <h1>Course We Offer</h1>
+      <p
+        >We offer a diverse range of programs across various fields, including
+        business, technology, healthcare, arts, and more, designed to meet the
+        needs of today’s dynamic world and prepare students for successful
+        careers.</p
+      >
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p
+            >Our intermediate programs provide a strong foundation for academic
+            and personal growth, bridging the gap between school education and
+            higher studies. With a comprehensive curriculum, experienced
+            faculty, and supportive learning environment, we help students build
+            the skills and confidence needed to excel in their future academic
+            and career pursuits. Start your journey of success with us.</p
+          >
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p
+            >Our degree programs are designed to equip students with the
+            knowledge, skills, and hands-on experience needed to excel in their
+            chosen fields. Through a blend of rigorous coursework, innovative
+            research opportunities, and industry collaborations, we prepare
+            graduates to thrive in a dynamic, global landscape. Join us to shape
+            your future and make a lasting impact.</p
+          >
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p
+            >Our post-graduate programs offer advanced education and specialized
+            training to empower students with in-depth expertise and critical
+            thinking skills. With a strong emphasis on research, innovation, and
+            professional development, these programs provide a pathway to
+            leadership roles and groundbreaking contributions in academia,
+            industry, and beyond. Explore new horizons and elevate your career
+            with us.</p
+          >
+        </div>
+      </div>
+    </section>
+    <!----------------------Faceleties------------------>
+
+    <section class="facelities">
+      <h1>Our facilities</h1>
+      <p
+        >Offering state-of-the-art amenities to support learning, growth, and
+        well-being</p
+      >
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="" />
+          <h3>World Class library</h3>
+          <p
+            >"Discover endless possibilities with access to knowledge,
+            innovation, and inspiration."</p
+          >
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            "Fostering growth, teamwork, and excellence through unparalleled
+            sports facilities."</p
+          >
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Tastey and Helthy Food</h3>
+          <p
+            >"Delighting your taste buds with nutritious and delicious meals
+            every day."</p
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p
+        >Welcome to Eduford, a vibrant community of scholars, innovators, and
+        leaders dedicated to shaping the future. Founded in 1980, we have grown
+        into a distinguished institution renowned for academic excellence,
+        groundbreaking research, and a commitment to fostering personal growth.
+        At Eduford, we offer a diverse range of undergraduate, graduate, and
+        professional programs designed to challenge, inspire, and empower
+        students to achieve their highest potential. Our faculty members are
+        experts in their fields, dedicated to providing world-class education
+        and mentorship, ensuring that our students are equipped to make
+        meaningful contributions to society. We believe in the power of
+        curiosity, creativity, and critical thinking, and strive to create an
+        inclusive and supportive environment where students from all backgrounds
+        can thrive. Our campus is a hub of collaboration and innovation,
+        offering state-of-the-art facilities, resources, and opportunities for
+        hands-on learning. As a university committed to global engagement, we
+        encourage students to expand their horizons through study abroad
+        programs, internships, and partnerships with institutions around the
+        world. Our strong alumni network and connections with industry leaders
+        provide our graduates with the tools they need to succeed in a rapidly
+        changing world. Whether you're just starting your academic journey or
+        looking to advance your career, Eduford is the place where your
+        aspirations become reality. Join us as we continue to make a difference
+        in the world through education, research, and service.</p
+      >
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
